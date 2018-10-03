@@ -3,8 +3,14 @@ class Jet {
     this.color = color;
     this.size = size;
   }
+
+  fly () {
+    console.log('whoosh!');
+  }
+
   takeOff () {
     console.log('lift off!');
+
   }
 }
 
